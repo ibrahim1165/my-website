@@ -1,20 +1,47 @@
 body{
+    font-family: 'Pushster', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+{
     background-color: white;
 }
 .color{
-    color: red;
+    color: orchid;
+    padding-left: 5px;
 }
-font-size: 50%;
 image{
-    size: 20px;
+    size: 100px;
 }
 section{
     display: flex;
 }
 .halp{
-    width:100%;
-    padding left: 80px 200px;
+    width: 500px;
+    padding: 100px;
+    padding-top: 50px;
 }
 .halp img{
-    width:70%;
+    width: 500px;]
+
+}
+.title{
+    font-size:70px;
+}
+.font{
+    font-size:50px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    padding:7px;
+    padding-left: 4%;
+    padding-right: 4%;
+    color:blue;
+    font-weight:700;
+    border-radius: 5px;
+}
+.pic{
+   background-image: url( images/Rafi4.png);
+    background-repeat: no-repeat;
 }
